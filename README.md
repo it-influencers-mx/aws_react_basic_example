@@ -65,7 +65,7 @@
 
    ![Git Repo](./img/git10.png)
 
-   6. Se abrá un formulario donde llenaremos la información para crear nuestro nuevo Repo.
+   6. Se abrirá un formulario donde llenaremos la información para crear nuestro nuevo Repo.
 
    ![Git New Repo](./img/git11.png)
 
