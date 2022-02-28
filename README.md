@@ -18,7 +18,7 @@
 
    ![CMD React](./img/cmd1.png)
 
-   2. Ya en el directorio correremos el comando **npx create-react-app app-name** sustituyendo app-name por el nombre que deseemos darle a nuestra app, sin mayusculas, y usando guines (-) en lugar de espacios para separar palabras como ***my-aws-app***.
+   2. Ya en el directorio correremos el comando **npx create-react-app app-name** sustituyendo app-name por el nombre que deseemos darle a nuestra app, sin mayusculas, y usando guiones (-) en lugar de espacios para separar palabras como ***my-aws-app***.
    3. Esperamos a que el proceso termine, sabremos que el proceso finalizó correctamente cuando la consola nos muestre esto.
 
    ![NPX Finished](./img/cmd2.png)
