@@ -39,7 +39,7 @@
 
    ![Git Main Page](./img/git1.png)
 
-   2. Se mostrará un formulario que iremos llenando, los campos cargarán conforme se van llenando.
+   2. Se mostrará un formulario que iremos llenando, los campos cargarán conforme los llenemos.
 
    ![Git Form 1](./img/git2.png)  
 
