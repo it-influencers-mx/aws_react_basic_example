@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ImageCardComponent from "./components/ImageCardComponent/ImageCardComponent";
 
 function App() {
+  const mineImage = {
+    title: "MineCraft Lake",
+    url: "https://acc-bucket-test.s3.us-west-1.amazonaws.com/maincra-lake.jpg",
+  };
+
+  const terraImage = {
+    title: "Terraria Overworld",
+    url: "https://acc-bucket-test.s3.us-west-1.amazonaws.com/terra-overworld.jpg",
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="card-list">
+      <ImageCardComponent title={mineImage.title} url={mineImage.url} />
+      <ImageCardComponent title={terraImage.title} url={terraImage.url} />
+      <ImageCardComponent title={mineImage.title} url={mineImage.url} />
+      <ImageCardComponent title={terraImage.title} url={terraImage.url} />
     </div>
   );
 }
