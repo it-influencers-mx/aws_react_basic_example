@@ -154,3 +154,89 @@
    20. Al llegar a esta vista, significa que nuestro repo y nuestro AWS Amplify ya están conectados y AWS estará escuchando y al pendiente de cualquier merge a la branch que indicamos en el paso 17.
 
    ![Finish](./img/aws20.png)
+
+## 5. Crear un bucket y subir recursos con S3
+
+   1. Regresaremos a la ventana principal de nuestra consola de AWS, podemos hacerlo dando clic en el logo de AWS en la esquina superior izquierda.
+
+   ![AWS logo](./img/s3-1.png)
+
+   2. En la bara de busqueda escribiremos S3 para la busqueda, y daremos clic en el resultado que solo dice S3.
+
+   ![S3 search](./img/s3-2.png)
+
+   3. Ya en la consola de S3, daremos click en cualquiera de los 2 botones para crear un nuevo **Bucket**.
+
+   ![S3 new Bucket](./img/s3-3.png)
+
+   4. En la ventana que nos muestre, deberemos escribir un nombre para nuestro bucket que sea único, no se pueden repetir.
+
+   ![S3 bucket name](./img/s3-4.png)
+
+   5. Bajaremos hasta la sección de **Object Ownership** o **Propiedad de objeto**.
+
+   ![S3 Bucket Ownershipt 1](./img/s3-5.png)
+
+   6. Daremos clic en la opción de la derecha, esta opción es para abilitar las ACLs (*Access Control Lists* o *Listas de Control de Accesos*), y después seleccionaremos la segunda opción que nos mostrará *Object Writer* o *Escritor de Objetos*.
+
+   ![S3 Bucket Ownership 2](./img/s3-6.png)
+
+   7. Bajaremos a la siguiente sección, esta se encarga de las configuraciones de control de acceso público a nuestro bucket.
+
+   ![S3 Bucket Access](./img/s3-7.png)
+
+   8. Deseleccionaremos la casilla marcada en la parte superior, y seleccionaremos la casilla que aparece en la parte inferior de la sección.
+
+   ![S3 Bucket Public](./img/s3-8.png)
+
+   9. Bajaremos por la página hasta topar, y daremos clic en el botón naranja para crear nuestro nuevo Bucket.
+
+   ![S3 Create Bucket](./img/s3-9.png)
+
+   10. Nuestro nuevo bucket debería aparecer en el listado, de ser así, daremos clic en el nombre de nuestro bucket.
+
+   ![S3 Bucket List](./img/s3-10.png)
+
+   11. Aquí podremos ver los archivos en nuestro bucket, daremos clic en cualquiera de los 2 botones para subir el archivo que deseemos cargar.
+
+   ![S3 Upload File](./img/s3-11.png)
+
+   12. En esta ventana ya sea usando los botones para **Añadir un archivo o carpeta** o usando **Drag and Drop**, seleccionaremos los archivos que deseamos tener en el bucket.
+
+   ![S3 Choose Files](./img/s3-12.png)
+
+   13. Los archivos que hayamos añadido se mostrarán en un listado en la parte inferior de esta sección.
+
+   ![S3 Chosen Files](./img/s3-13.png)
+
+   14. Bajaremos un poco, y daremos clic en la sección de permisos para expandirla.
+
+   ![S3 Permissions](./img/s3-14.png)
+
+   15. La sección de permisos debería de verse así.
+
+   ![S3 Permissions Expanded](./img/s3-15)
+
+   16. La primera sección la dejaremos igual, en la segunda sección elegiremos la segunda opción que nos muestra, y marcaremos la casilla que aparecerá al dar clic en dicha opción.
+
+   ![S3 Public Access Opt](./img/s3-16.png)
+
+   17. Finalmente podremos dar clic en el botón narajna (*Upload* o *Cargar*) para subir nuestros archivos.
+
+   ![S3 Final Upload](./img/s3-17.png)
+
+   18. Nos regresará a la vista de contenido del bucket, con un recuadro verde en la parte superior indicando que los archivos se subieron con éxito.
+
+   ![S3 Upload Succeded](./img/s3-18.png)
+
+   19. Si bajamos un poco, podremos ver la lista de archivos, y daremos clic en su nombre.
+
+   ![S3 File List](./img/s3-19.png)
+
+   20. La ventana que nos abre, nos mostrará los datos y propiedades del archivo que subimos, el que nos interesa es el link en la parte derecha, daremos clic en dicha URL.
+
+   ![S3 File URL](./img/s3-20.png)
+
+   21. Si la imagen es visible en dicha URL, nuestro link está listo para ser usado en nuestros proyectos, compatido, etc.
+
+   ![S3 Accessed Img](./img/s3-21.png)
